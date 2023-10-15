@@ -51,6 +51,7 @@ export class GildedTros {
     });
   }
 
+  // Helper function that checks if the item is a smelly item
   private IsSmellyItem(item: Item): boolean {
     return (
       item.name == "Duplicate Code" ||
@@ -59,6 +60,7 @@ export class GildedTros {
     );
   }
 
+  // Helper function that checks if the item is a backstage pass
   private IsBackstagePass(item: Item): boolean {
     return (
       item.name === "Backstage passes for Re:Factor" ||
